@@ -1,0 +1,683 @@
+{% include"nav.html"%}
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Add a gray background color with some padding */
+body {
+  font-family: Arial;
+  padding: 20px;
+  background: #f1f1f1;
+}
+
+/* Header/Blog Title */
+.header {
+  padding: 30px;
+  font-size: 40px;
+  text-align: center;
+  background: white;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  padding-left: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+   background-color: white;
+   padding: 20px;
+   margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 20px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+</style>
+</head>
+<body>
+{%if a == "all motor vehicle prohibited"%}
+<div class="header">
+  <h6>Predicted Results....</h6>
+</div>
+
+    
+
+
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <font color="Green"><h2>Predicted Results: {{ a }} </h2></font>
+      <font color="red"><h5>Confidence : {{ b }}</h5></font>
+      <div class="fakeimg" style="height:300px;"><img src="/static/1.JPG/" height="250" width="250"></div>
+      <div> <font color="black">Cluster Value: {{c }}</font></div>
+ 
+      
+    </div>
+    <div class="card">
+      
+      </div>
+  </div>
+  <div class="rightcolumn">
+    <div class="card">
+      
+             </div>
+    
+    <div class="card">
+      <h3>Follow Me</h3>
+      <p><LI>STUDENT NAME :VANITHA</LI>
+        <LI> PROJECT MENTOR NAME : SIR DR.shilpa patil </LI>
+        <LI>COLLEGE NAME : ASM college for women BALLARI</LI></p>
+    </div>
+  </div>
+</div>
+
+
+<div class="footer">
+  <h2>ASM college for women BALLARI</h2>
+</div>
+{%endif%}
+
+
+
+{%if a == "axle road limit"%}
+<div class="header">
+  <h6>Predicted Results....</h6>
+</div>
+
+    
+
+
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <font color="Green"><h2>Predicted Results: {{ a }} </h2></font>
+      <font color="red"><h5>Confidence : {{ b }}</h5></font>
+      <div class="fakeimg" style="height:300px;"><img src="/static/2 - Copy - Copy - Copy - Copy - Copy.jpg/" height="250" width="250" ></div>
+      </div>
+    
+    <div class="card">
+      
+    </div>
+  </div>
+  <div class="rightcolumn">
+    <div class="card">
+      
+      
+    
+    <div class="card">
+      <h3>Follow Me</h3>
+      <p><LI>STUDENT NAME :VANITHA </LI>
+        <LI> PROJECT MENTOR NAME : SHILPA PATIL </LI>
+        
+    </div>
+  </div>
+</div>
+
+
+<div class="footer">
+  <h2><LI>COLLEGE NAME : ASM WOMENS COLLEGE BALLARI</LI></p></h2>
+</div>
+{%endif%}
+
+
+{%if a == "barrier ahead sign"%}
+<div class="header">
+  <h6>Predicted Results....</h6>
+</div>
+
+    
+
+
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <font color="Green"><h2>Predicted Results: {{ a }} </h2></font>
+      <font color="red"><h5>Confidence : {{ b }}</h5></font>
+      <div class="fakeimg" style="height:300px;"><img src="/static/3.jpg/" height="250" width="250" ></div>
+      <div> <font color="black">Cluster Value: {{c }}</font></div>
+ 
+      
+    </div>
+    <div class="card">
+      <h2>Tomato Target Spot</h2>
+      <h3>Scientific Name : Corynespora cassiicola </h3>
+      Target spot of tomato caused by Corynespora cassiicola, is a serious foliar disease of both greenhouse and field grown tomatoes. The field disease is limited to the tropical and subtropical regions of the world.
+      <h2>Symptoms</h2>
+      Target Spot is a fungal disease that affects tomato plants. 
+      <ul>
+      <li>Circular Spots: Dark, circular spots with a concentric ring pattern develop on tomato leaves.</li>
+      <li>Yellowing Leaves: Leaves around the spots turn yellow, leading to a mottled appearance.</li>
+      <li>Leaf Drop: Severe infections can cause leaves to drop, weakening the plant.</li>
+      <li>Fruit Spots: In some cases, small, dark spots may appear on the fruit.</li>
+      <li>Reduced Yield: Target Spot can reduce fruit production as it progresses.</li>
+      <li>Thrive in Warm, Humid Conditions: The disease thrives in warm and humid weather.</li>
+      <li>Prevention and Management: Manage Target Spot with good garden hygiene, avoiding overhead watering, and considering fungicide application in severe cases. Adequate spacing and ventilation can also help reduce humidity and the risk of infection.</li>
+       Early detection and proper management are essential to minimize the impact of Target Spot on tomato plants and their yield.
+      </ul>
+      </div>
+  </div>
+  <div class="rightcolumn">
+    <div class="card">
+      
+          <h2>Cause : Fungus</h2>
+      
+   
+      <h2>Fertilizer Recommendation</h2>
+   While fertilization won't cure Tomato Target Spot, it can help support plant health and resilience against the disease. 
+   
+   <ol>
+   <li>Balanced Fertilizer: Choose a balanced fertilizer with an equal ratio of nitrogen (N), phosphorus (P), and potassium (K), like 10-10-10 or 14-14-14.</li>
+   
+   <li>Avoid Excess Nitrogen: Limit excessive nitrogen, as it can encourage lush foliage growth, making the plant more vulnerable to diseases like Target Spot.</li>
+   
+   <li>Overall Plant Health: Focus on providing essential nutrients to maintain the plant's overall health, which can enhance its ability to resist the disease.</li>
+   
+   <li>Prevent Over-Fertilization: Avoid over-fertilization, as excess nutrients won't cure Target Spot and can stress the plant.</li>
+   
+   <li>Prioritize Prevention: While fertilization is important, place greater emphasis on disease prevention by practicing good garden hygiene, proper spacing, and ventilation to reduce humidity levels, which can help deter the disease.</li>
+   
+   <li>Expert Advice: Consult with local agricultural experts or extension services for precise fertilizer recommendations tailored to your region and the specific conditions of Target Spot in your area.</li>
+   </ol>    </div>
+    
+    <div class="card">
+      <h3>Follow Me</h3>
+      <p><LI>STUDENT NAME :VIJAYLAXMI A JOGIN</LI>
+        <LI> PROJECT MENTOR NAME : SIR DR.SHIVASHANKAR.S </LI>
+        <LI>COLLEGE NAME : KARANATAK UNIVERSITY DHARWAD</LI></p>
+    </div>
+  </div>
+</div>
+
+
+<div class="footer">
+  <h2>Footer</h2>
+</div>
+{%endif%}
+
+
+{%if a == "bullock cart and hand cart prohibited sign"%}
+<div class="header">
+  <h6>Predicted Results....</h6>
+</div>
+
+    
+
+
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <font color="Green"><h2>Predicted Results: {{ a }} </h2></font>
+      <font color="red"><h5>Confidence : {{ b }}</h5></font>
+      <div class="fakeimg" style="height:300px;"><img src="/static/4.jpg/" height="250" width="250"></div>
+      <div> <font color="black">Cluster Value: {{c }}</font></div>
+ 
+      
+    </div>
+    <div class="card">
+      
+      </div>
+  </div>
+  <div class="rightcolumn">
+    <div class="card">
+      
+         
+    
+    <div class="card">
+      <h3>Follow Me</h3>
+      <p><LI>STUDENT NAME :Vanitha</LI>
+        <LI> PROJECT MENTOR NAME : shilpa patil </LI>
+        <LI>COLLEGE NAME : Asm college for women Ballari</LI></p>
+    </div>
+  </div>
+</div>
+
+
+<div class="footer">
+  <h2>Footer</h2>
+</div>
+{%endif%}
+
+
+
+{%if a == "cattle traffic sign"%}
+<div class="header">
+  <h6>Predicted Results....</h6>
+</div>
+
+    
+
+
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <font color="Green"><h2>Predicted Results: {{ a }} </h2></font>
+      <font color="red"><h5>Confidence : {{ b }}</h5></font>
+      <div class="fakeimg" style="height:300px;"><img src="/static/5.jpg/" height="250" width="250"></div>
+      <div> <font color="black">Cluster Value: {{c }}</font></div>
+ 
+      
+    </div>
+    <div class="card">
+      
+      </div>
+  </div>
+  <div class="rightcolumn">
+    <div class="card">
+      
+         
+      
+   
+      
+    
+    <div class="card">
+      <h3>Follow Me</h3>
+      <p><LI>STUDENT NAME :VANITHA</LI>
+        <LI> PROJECT MENTOR NAME : shilpa patil </LI>
+        <LI>COLLEGE NAME : ASM college for womens Ballari</LI></p>
+    </div>
+  </div>
+</div>
+
+
+<div class="footer">
+  <h2> ASM college for womens Ballari</h2>
+</div>
+{%endif%}
+
+
+
+
+
+{%if a == "compulsory ahead only sign"%}
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <font color="Green"><h2>Predicted Results: {{ a }} </h2></font>
+      <font color="red"><h5>Confidence : {{ b }}</h5></font>
+      <div class="fakeimg" style="height:300px;"><img src="/Training_Master/training/compulsory ahead only sign/7.jpg/" height="250" width="250"></div>
+      </div>
+    
+    <div class="card">
+      <h2>Healthy</h2>
+      <h3>Scientific Name : Solanum lycopersicum</h3> 
+      Healthy tomato plants look healthy. Healthy tomato plants should display soft, leaves with medium to dark shades of green with solid stems.
+      <h2>symptoms</h2>
+      <ul>
+      <li>Green Leaves: Healthy tomato plants have bright green leaves without yellowing or wilting.</li>
+      <li>Strong Stem: Their main stem is sturdy and supports the plant well.</li>
+      <li>Yellow Flowers: Bright yellow flowers indicate the plant's readiness to produce fruit.</li>
+      <li>Quality Fruit: Healthy plants yield firm, blemish-free fruit that ripens gradually.</li>
+      <li>Pest and Disease Resistance: They are generally free from pests and diseases.</li>
+      <li>Proper Moisture: Soil maintains consistent moisture levels, avoiding overwatering or underwatering.</li>
+      <li>Support and Pruning: Proper support and regular pruning of lower leaves enhance plant health.</li>
+      <li>Strong Roots: Well-developed roots anchor the plant securely.</li>
+      <li>Abundant Fruit: Healthy plants consistently produce plenty of high-quality fruit throughout the season.</li>
+      </ul>
+       
+    </div>
+  </div>
+  <div class="rightcolumn">
+    <div class="card">
+      
+      <h2>Fertilizer Recommendation</h2>
+<ol>
+
+<li>Balanced Fertilizer: Choose a balanced fertilizer with equal proportions of nitrogen (N), phosphorus (P), and potassium (K), like 10-10-10 or 14-14-14.</li>
+
+
+<li>Timing: Apply the fertilizer a few weeks after transplanting and again when the first fruit sets, following the package instructions.</li>
+
+<li>Organic Options: Consider organic fertilizers such as compost or well-rotted manure to enrich the soil naturally and improve its structure.</li>
+
+<li>Prevent Blossom End Rot: To prevent blossom end rot, address calcium deficiency by using a calcium-containing fertilizer or adding crushed eggshells to the soil.</li>
+
+<li>Avoid Over-Fertilizing: Follow recommended application rates closely to avoid harming the plants with excessive nutrients.</li>
+
+<li>Proper Watering: Maintain consistent soil moisture to help the plant absorb nutrients effectively.</li>
+
+<li>Monitor Plant Health: Regularly check your tomato plants for signs of nutrient deficiency or excess and adjust your fertilization routine accordingly.</li>
+</ol>  </div>
+    
+    <div class="card">
+      <h3>Follow Me</h3>
+      <p><LI>STUDENT NAME :VIJAYLAXMI A JOGIN</LI>
+        <LI> PROJECT MENTOR NAME : SIR DR.SHIVASHANKAR.S </LI>
+        <LI>COLLEGE NAME : KARANATAK UNIVERSITY DHARWAD</LI>
+      </p>
+    </div>
+  </div>
+</div>
+
+
+<div class="footer">
+  <h2>Footer</h2>
+</div>
+{%endif%}
+
+
+{%if a == "compulsory cycle track sign"%}
+<div class="header">
+  <h6>Predicted Results....</h6>
+</div>
+
+    
+
+
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <font color="Green"><h2>Predicted Results: {{ a }} </h2></font>
+      <font color="red"><h5>Confidence : {{ b }}</h5></font>
+      <div class="fakeimg" style="height:300px;"><img src="/static/Tomato__Target_Spot.JPG/" ></div>
+      <div> <font color="black">Cluster Value: {{c }}</font></div>
+ 
+      
+    </div>
+    <div class="card">
+      <h2>Tomato Late blight</h2>
+      <h3>Scientific Name : Phytophthora infestans </h3>
+      Target spot of tomato caused by Corynespora cassiicola, is a serious foliar disease of both greenhouse and field grown tomatoes. The field disease is limited to the tropical and subtropical regions of the world.
+      <h2>Symptoms</h2>
+      Target Spot is a fungal disease that affects tomato plants. 
+      <ul>
+      <li>Circular Spots: Dark, circular spots with a concentric ring pattern develop on tomato leaves.</li>
+      <li>Yellowing Leaves: Leaves around the spots turn yellow, leading to a mottled appearance.</li>
+      <li>Leaf Drop: Severe infections can cause leaves to drop, weakening the plant.</li>
+      <li>Fruit Spots: In some cases, small, dark spots may appear on the fruit.</li>
+      <li>Reduced Yield: Target Spot can reduce fruit production as it progresses.</li>
+      <li>Thrive in Warm, Humid Conditions: The disease thrives in warm and humid weather.</li>
+      <li>Prevention and Management: Manage Target Spot with good garden hygiene, avoiding overhead watering, and considering fungicide application in severe cases. Adequate spacing and ventilation can also help reduce humidity and the risk of infection.</li>
+       Early detection and proper management are essential to minimize the impact of Target Spot on tomato plants and their yield.
+      </ul>
+      </div>
+  </div>
+  <div class="rightcolumn">
+    <div class="card">
+      
+          <h2>Cause : Fungus</h2>
+      
+   
+      <h2>Fertilizer Recommendation</h2>
+   While fertilization won't cure Tomato Target Spot, it can help support plant health and resilience against the disease. 
+   
+   <ol>
+   <li>Balanced Fertilizer: Choose a balanced fertilizer with an equal ratio of nitrogen (N), phosphorus (P), and potassium (K), like 10-10-10 or 14-14-14.</li>
+   
+   <li>Avoid Excess Nitrogen: Limit excessive nitrogen, as it can encourage lush foliage growth, making the plant more vulnerable to diseases like Target Spot.</li>
+   
+   <li>Overall Plant Health: Focus on providing essential nutrients to maintain the plant's overall health, which can enhance its ability to resist the disease.</li>
+   
+   <li>Prevent Over-Fertilization: Avoid over-fertilization, as excess nutrients won't cure Target Spot and can stress the plant.</li>
+   
+   <li>Prioritize Prevention: While fertilization is important, place greater emphasis on disease prevention by practicing good garden hygiene, proper spacing, and ventilation to reduce humidity levels, which can help deter the disease.</li>
+   
+   <li>Expert Advice: Consult with local agricultural experts or extension services for precise fertilizer recommendations tailored to your region and the specific conditions of Target Spot in your area.</li>
+   </ol>    </div>
+    
+    <div class="card">
+      <h3>Follow Me</h3>
+      <p><LI>STUDENT NAME :VIJAYLAXMI A JOGIN</LI>
+        <LI> PROJECT MENTOR NAME : SIR DR.SHIVASHANKAR.S </LI>
+        <LI>COLLEGE NAME : KARANATAK UNIVERSITY DHARWAD</LI></p>
+    </div>
+  </div>
+</div>
+
+
+<div class="footer">
+  <h2>Footer</h2>
+</div>
+{%endif%}
+
+
+{%if a == "compulsory keep left sign"%}
+<div class="header">
+  <h6>Predicted Results....</h6>
+</div>
+
+    
+
+
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <font color="Green"><h2>Predicted Results: {{ a }} </h2></font>
+      <font color="red"><h5>Confidence : {{ b }}</h5></font>
+      <div class="fakeimg" style="height:300px;"><img src="/static/Tomato__Target_Spot.JPG/" ></div>
+      <div> <font color="black">Cluster Value: {{c }}</font></div>
+ 
+      
+    </div>
+    <div class="card">
+      <h2>Tomato Leaf Mold</h2>
+      <h3>Scientific Name : Passalora fulva </h3>
+      Target spot of tomato caused by Corynespora cassiicola, is a serious foliar disease of both greenhouse and field grown tomatoes. The field disease is limited to the tropical and subtropical regions of the world.
+      <h2>Symptoms</h2>
+      Target Spot is a fungal disease that affects tomato plants. 
+      <ul>
+      <li>Circular Spots: Dark, circular spots with a concentric ring pattern develop on tomato leaves.</li>
+      <li>Yellowing Leaves: Leaves around the spots turn yellow, leading to a mottled appearance.</li>
+      <li>Leaf Drop: Severe infections can cause leaves to drop, weakening the plant.</li>
+      <li>Fruit Spots: In some cases, small, dark spots may appear on the fruit.</li>
+      <li>Reduced Yield: Target Spot can reduce fruit production as it progresses.</li>
+      <li>Thrive in Warm, Humid Conditions: The disease thrives in warm and humid weather.</li>
+      <li>Prevention and Management: Manage Target Spot with good garden hygiene, avoiding overhead watering, and considering fungicide application in severe cases. Adequate spacing and ventilation can also help reduce humidity and the risk of infection.</li>
+       Early detection and proper management are essential to minimize the impact of Target Spot on tomato plants and their yield.
+      </ul>
+      </div>
+  </div>
+  <div class="rightcolumn">
+    <div class="card">
+      
+          <h2>Cause : Fungus</h2>
+      
+   
+      <h2>Fertilizer Recommendation</h2>
+   While fertilization won't cure Tomato Target Spot, it can help support plant health and resilience against the disease. 
+   
+   <ol>
+   <li>Balanced Fertilizer: Choose a balanced fertilizer with an equal ratio of nitrogen (N), phosphorus (P), and potassium (K), like 10-10-10 or 14-14-14.</li>
+   
+   <li>Avoid Excess Nitrogen: Limit excessive nitrogen, as it can encourage lush foliage growth, making the plant more vulnerable to diseases like Target Spot.</li>
+   
+   <li>Overall Plant Health: Focus on providing essential nutrients to maintain the plant's overall health, which can enhance its ability to resist the disease.</li>
+   
+   <li>Prevent Over-Fertilization: Avoid over-fertilization, as excess nutrients won't cure Target Spot and can stress the plant.</li>
+   
+   <li>Prioritize Prevention: While fertilization is important, place greater emphasis on disease prevention by practicing good garden hygiene, proper spacing, and ventilation to reduce humidity levels, which can help deter the disease.</li>
+   
+   <li>Expert Advice: Consult with local agricultural experts or extension services for precise fertilizer recommendations tailored to your region and the specific conditions of Target Spot in your area.</li>
+   </ol>    </div>
+    
+    <div class="card">
+      <h3>Follow Me</h3>
+      <p><LI>STUDENT NAME :VIJAYLAXMI A JOGIN</LI>
+        <LI> PROJECT MENTOR NAME : SIR DR.SHIVASHANKAR.S </LI>
+        <LI>COLLEGE NAME : KARANATAK UNIVERSITY DHARWAD</LI></p>
+    </div>
+  </div>
+</div>
+
+
+<div class="footer">
+  <h2>Footer</h2>
+</div>
+{%endif%}
+
+
+
+{%if a == "compulsory keep right sign"%}
+<div class="header">
+  <h6>Predicted Results....</h6>
+</div>
+
+    
+
+
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <font color="Green"><h2>Predicted Results: {{ a }} </h2></font>
+      <font color="red"><h5>Confidence : {{ b }}</h5></font>
+      <div class="fakeimg" style="height:300px;"><img src="/static/Tomato__Target_Spot.JPG/" ></div>
+      <div> <font color="black">Cluster Value: {{c }}</font></div>
+ 
+      
+    </div>
+    <div class="card">
+      <h2>Tomato Septoria leaf spot</h2>
+      <h3>Scientific Name : Septoria lycopersici </h3>
+      Target spot of tomato caused by Corynespora cassiicola, is a serious foliar disease of both greenhouse and field grown tomatoes. The field disease is limited to the tropical and subtropical regions of the world.
+      <h2>Symptoms</h2>
+      Target Spot is a fungal disease that affects tomato plants. 
+      <ul>
+      <li>Circular Spots: Dark, circular spots with a concentric ring pattern develop on tomato leaves.</li>
+      <li>Yellowing Leaves: Leaves around the spots turn yellow, leading to a mottled appearance.</li>
+      <li>Leaf Drop: Severe infections can cause leaves to drop, weakening the plant.</li>
+      <li>Fruit Spots: In some cases, small, dark spots may appear on the fruit.</li>
+      <li>Reduced Yield: Target Spot can reduce fruit production as it progresses.</li>
+      <li>Thrive in Warm, Humid Conditions: The disease thrives in warm and humid weather.</li>
+      <li>Prevention and Management: Manage Target Spot with good garden hygiene, avoiding overhead watering, and considering fungicide application in severe cases. Adequate spacing and ventilation can also help reduce humidity and the risk of infection.</li>
+       Early detection and proper management are essential to minimize the impact of Target Spot on tomato plants and their yield.
+      </ul>
+      </div>
+  </div>
+  <div class="rightcolumn">
+    <div class="card">
+      
+          <h2>Cause : Fungus</h2>
+      
+   
+      <h2>Fertilizer Recommendation</h2>
+   While fertilization won't cure Tomato Target Spot, it can help support plant health and resilience against the disease. 
+   
+   <ol>
+   <li>Balanced Fertilizer: Choose a balanced fertilizer with an equal ratio of nitrogen (N), phosphorus (P), and potassium (K), like 10-10-10 or 14-14-14.</li>
+   
+   <li>Avoid Excess Nitrogen: Limit excessive nitrogen, as it can encourage lush foliage growth, making the plant more vulnerable to diseases like Target Spot.</li>
+   
+   <li>Overall Plant Health: Focus on providing essential nutrients to maintain the plant's overall health, which can enhance its ability to resist the disease.</li>
+   
+   <li>Prevent Over-Fertilization: Avoid over-fertilization, as excess nutrients won't cure Target Spot and can stress the plant.</li>
+   
+   <li>Prioritize Prevention: While fertilization is important, place greater emphasis on disease prevention by practicing good garden hygiene, proper spacing, and ventilation to reduce humidity levels, which can help deter the disease.</li>
+   
+   <li>Expert Advice: Consult with local agricultural experts or extension services for precise fertilizer recommendations tailored to your region and the specific conditions of Target Spot in your area.</li>
+   </ol>    </div>
+    
+    <div class="card">
+      <h3>Follow Me</h3>
+      <p><LI>STUDENT NAME :VIJAYLAXMI A JOGIN</LI>
+        <LI> PROJECT MENTOR NAME : SIR DR.SHIVASHANKAR.S </LI>
+        <LI>COLLEGE NAME : KARANATAK UNIVERSITY DHARWAD</LI></p>
+    </div>
+  </div>
+</div>
+
+
+<div class="footer">
+  <h2>Footer</h2>
+</div>
+{%endif%}
+
+
+{%if a == "speed limit 30"%}
+<div class="header">
+  <h6>Predicted Results....</h6>
+</div>
+
+    
+
+
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <font color="Green"><h2>Predicted Results: {{ a }} </h2></font>
+      <font color="red"><h5>Confidence : {{ b }}</h5></font>
+      <div class="fakeimg" style="height:300px;"><img src="/static/6.jpg/" height="250" width="250" ></div>
+      <div> <font color="black">Cluster Value: {{c }}</font></div>
+ 
+      
+    </div>
+    <div class="card">
+      
+      </div>
+  </div>
+  <div class="rightcolumn">
+    <div class="card">
+      
+          <h2>Cause : Speed limit 30</h2>
+      
+   
+          </div>
+    
+    <div class="card">
+      <h3>Follow Me</h3>
+      <p><LI>there should be a speed linit of 30</LI>
+        <LI> it may reduce accident </LI>
+        <LI>if you wont follow this rules i will fine</LI></p>
+    </div>
+  </div>
+</div>
+
+
+<div class="footer">
+  <h2>ASM COllege for womens BALLARI</h2>
+</div>
+{%endif%}
+
+
+
+
+</body>
+</html>
